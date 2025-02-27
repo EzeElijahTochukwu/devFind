@@ -24,7 +24,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
           href="#"
           className="hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         >
-          Previous
+          Previous page
         </span>
       </button>
       <button
@@ -36,7 +36,7 @@ function Pagination({ currentPage, totalPages, onNextPage, onPrevPage }) {
           href="#"
           className="hover:text-textSecondary dark:text-white dark:hover:text-textSecondary"
         >
-          Next
+          Next page
         </span>
       </button>
     </div>
